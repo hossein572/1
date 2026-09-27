@@ -135,7 +135,7 @@ function HeroArtwork() {
           <div>
             <span className="line-number">2</span>
             <span className="code-key">name:</span>{' '}
-            <span className="code-green">'Arman Rezaei'</span>,
+            <span className="code-green">'Hossein Rezaei'</span>,
           </div>
           <div>
             <span className="line-number">3</span>
@@ -183,7 +183,7 @@ function ContactForm() {
       setStatus('لطفاً نام، ایمیل و متن پیام را کامل کنید. وارد کردن فاصله کافی نیست.')
       return
     }
-    const body = `سلام آرمان،\n\n${message}\n\nنام: ${name}\nایمیل: ${email}`
+    const body = `سلام حسین،\n\n${message}\n\nنام: ${name}\nایمیل: ${email}`
     const url = `mailto:${profile.email}?subject=${encodeURIComponent(`درخواست همکاری از ${name}`)}&body=${encodeURIComponent(body)}`
     setDraft(body)
     setMailUrl(url)
@@ -380,7 +380,7 @@ export default function App() {
               <Code2 size={24} strokeWidth={2.4} />
             </span>
             <span className="brand-text">
-              آرمان<span className="brand-period">.</span>
+              حسین<span className="brand-period">.</span>
               <small>طراح و توسعه‌دهنده</small>
             </span>
           </a>
@@ -439,7 +439,7 @@ export default function App() {
                 مدرن<span className="heading-dot">.</span>
               </h1>
               <p className="hero-description">
-                سلام، من <strong>آرمان رضایی</strong> هستم؛ توسعه‌دهنده و طراح.
+                سلام، من <strong>حسین رضایی</strong> هستم؛ توسعه‌دهنده و طراح.
                 <br className="desktop-break" /> ایده‌ها را به تجربه‌هایی زیبا، سریع و کاربردی تبدیل
                 می‌کنم.
                 <br className="desktop-break" /> با دقت در جزئیات، برای آدم‌ها؛ نه فقط
@@ -716,7 +716,7 @@ export default function App() {
                 <div className="about-code">
                   <span className="muted-code">{'{'}</span>
                   <p>
-                    <span>"name"</span>: <b>"Arman Rezaei"</b>,
+                    <span>"name"</span>: <b>"Hossein Rezaei"</b>,
                   </p>
                   <p>
                     <span>"role"</span>: <b>"Creative Developer"</b>,
@@ -761,7 +761,7 @@ export default function App() {
                 به تجربه فکر می‌کنم<span className="heading-dot">.</span>
               </h2>
               <p>
-                من آرمانم؛ یک توسعه‌دهنده با ذهن طراح. به نظرم بهترین محصولات، جایی ساخته می‌شوند که
+                من حسینم؛ یک توسعه‌دهنده با ذهن طراح. به نظرم بهترین محصولات، جایی ساخته می‌شوند که
                 منطق کدنویسی با ظرافت طراحی همراه می‌شود.
               </p>
               <p>
@@ -850,7 +850,7 @@ export default function App() {
               <Code2 size={22} />
             </span>
             <span className="brand-text">
-              آرمان<span className="brand-period">.</span>
+              حسین<span className="brand-period">.</span>
             </span>
           </a>
           <p>با فکر طراحی شد. با علاقه ساخته شد.</p>
@@ -860,7 +860,7 @@ export default function App() {
           </a>
         </div>
         <div className="container footer-bottom">
-          <span>© ۱۴۰۵ آرمان رضایی · پورتفولیوی نمونه</span>
+          <span>© ۱۴۰۵ حسین رضایی · پورتفولیوی نمونه</span>
           <span>
             کمتر، اما بهتر.
             <span className="footer-blue-dot" />
